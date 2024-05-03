@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Lista de pokemones</h1>
+    <br />
+    <div>
+    </div>
+    <table class="table">
+        <tbody>
+            <ng-container *ngFor="let pokemon of pokemons; index as i" class="">
+                <tr>
+                    <td>{{pokemon.name}}</td>
+                </tr>
+            </ng-container>
+        </tbody>
+    </table>
+</div>
